@@ -56,12 +56,18 @@
           </li>
         </ul>
       </address>
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg>
+        
+      </button>
     </div>
     </header>
     <main>
 
       <!-- Hero section -->
-      <section class="hero">
+      <section class="hero hide">
         <div class="container hero-container">
         <h1 class="hero-text">Effective Solutions for Your Business</h1>
         <button class="hero-button" type="button">Order Service</button>
@@ -76,7 +82,7 @@
           <ul class="benefits-list">
             <li class="benefits-item">
             <div class="benefits-icon-wrapper"> 
-              <svg class="benefits-icon" width="64" height="64">
+              <svg class="benefits-icon " width="64" height="64">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
             </div>
@@ -129,7 +135,7 @@
       </section>
       
       <!-- Our Team section -->
-      <section class="team">
+      <section class="team hide">
         <div class="container">
           
           <h2 class="team-title">Our Team</h2>
@@ -315,7 +321,7 @@
 
       <!-- Section Our Portfolio -->
 
-      <section class="portfolio">
+      <section class="portfolio hide">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -427,7 +433,7 @@
     </main>
 
     <!-- Footer section -->
-    <footer class="page-footer">
+    <footer class="page-footer hide">
 
     <div class="container footer-container">
        <div class="footer-wrapper-left">
@@ -496,7 +502,7 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop">
+    <div class="backdrop hide">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-btn-icon" width="8" height="8">
