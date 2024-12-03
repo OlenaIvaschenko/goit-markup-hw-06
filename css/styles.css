@@ -369,7 +369,7 @@ line-height: 1.2;
   url('../images/hero/hero-bg_desk@1x.jpg');
     }
   }
-  
+
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .hero {
@@ -444,8 +444,15 @@ margin-bottom: 36px;
 /* Section benefits */
 
 .benefits {
-  padding: 0;
+  padding-top: 112px;
+  padding-bottom: 96px;
 
+}
+
+@media only screen and (min-width: 768px) {
+  .benefits {
+    padding-top: 96px;
+  }
 }
 
 .benefits-icon-wrapper{
@@ -459,6 +466,7 @@ margin-bottom: 36px;
     padding-bottom: 120px;
   }
 }
+
 .benefits-container {
 }
 .benefits-title {
@@ -485,13 +493,41 @@ margin-bottom: 36px;
   flex-direction: row;
   flex-wrap: wrap;
 gap: 72px 24px;
-} }
+justify-content:space-between;
+}
+}
 
+@media only screen and (min-width: 1158px) {
+ 
+  .benefits-list {
+   
+ 
+  justify-content:center;
+  }
+  }
 
 
 .benefits-item {
-  width: 264px;
+  width: 288px;
 }
+
+@media only screen and (min-width: 768px){
+
+  .benefits-item {
+    width: 356px;
+  }
+
+}
+
+@media only screen and (min-width: 1158px){
+
+  .benefits-item {
+    width: 264px;
+  }
+
+}
+
+
 
 @media only screen and (min-width: 1158px) {
 .benefits-icon-wrapper {
